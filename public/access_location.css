@@ -1,0 +1,31 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the location access container */
+.location-access {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Style the location icon */
+.location-access img {
+    width: 50px;
+}
+
+/* Style the location message */
+.location-access p {
+    margin: 20px 0;
+}
+
+/* Style the approve button */
+.location-access button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}

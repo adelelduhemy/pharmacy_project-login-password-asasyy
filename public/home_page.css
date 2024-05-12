@@ -1,0 +1,102 @@
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Search input style */
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    Left:300px
+}
+
+.signin button {
+    padding: 8px 12px;
+    background-color: #ff0303d6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 50px;
+}
+.sora{
+    width: 450px;
+    height: 450px;
+    border-radius: 30%;
+    
+}
+.klam{
+    position: absolute;
+    left: 550px;
+    bottom: 450px;
+}
+.klam2{
+    position:absolute;
+    left: 550px;
+    bottom: 400px;
+}
+.sora2{
+    position: absolute;
+    left: 1200px;
+    bottom: 100px;
+}
+.call{
+    position: absolute;
+    left: 1200px;
+    bottom: 220px;
+}
+
+.loginlink{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.location{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    left: 600px;
+}
+.nearest{
+    position: absolute;
+    left: 600px;
+    bottom: 200px;
+}

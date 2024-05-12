@@ -1,0 +1,59 @@
+body{
+
+background-color: rgb(229, 231, 230);
+
+}
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Search input style */
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    Left:300px
+}
+.custom-button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(247, 83, 83);
+  }
+
+  .position{
+    position: relative;
+    top: 300px;
+    text-align: center;
+  }
+
+  .Store-button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+
+  }
+  
+
+
+  

@@ -1,0 +1,32 @@
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Search input style */
+input[type="text"] {
+    position: relative;
+    text-align: right;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    Left:300px
+}
+
+
+.Allimage{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+
+.iii{
+    position: relative;
+    text-align: center;
+    top: 250px;
+}

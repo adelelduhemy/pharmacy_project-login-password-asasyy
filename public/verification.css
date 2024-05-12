@@ -1,0 +1,50 @@
+body{
+    padding: 100px;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+
+
+}
+#Login{
+    background-color: red;
+    color: white;
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+.head{
+right: 190px;
+position: relative;
+}
+
+.email{
+    font-size: 16px;
+    padding:0 130px 0 0;
+    right: 100px;
+    position: relative;
+
+
+}
+
+.background{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    display: inline;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+.final{
+    font-size: 10px;
+    top: 10px;
+    position: relative;
+}
+.Resend{
+    display: inline;
+    font-size: 15px;
+    color: red;
+}

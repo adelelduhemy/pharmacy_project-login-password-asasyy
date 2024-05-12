@@ -1,0 +1,29 @@
+body{
+    
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    
+}
+#HOD{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+#submit{
+    width: 200px;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+.head2{
+    padding:0 300px 0 0;
+}
+.head{
+    padding: 0 360px 0 0;
+
+    }

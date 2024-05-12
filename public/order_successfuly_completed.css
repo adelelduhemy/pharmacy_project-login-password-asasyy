@@ -1,0 +1,64 @@
+.header {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Search input style */
+input[type="text"] {
+  position: relative;
+  text-align: right;
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  Left:300px
+}
+
+
+.positionAll{
+  position: relative;
+  top: 200px;
+  right: 122.5px;
+}
+
+.my-button {
+  background-color: rgb(226, 37, 37);
+  left: 725;
+
+  position: relative;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: 10px 85px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.position{
+  text-align: center;
+}
+
+.your{
+  text-align: center;
+  position: relative;
+  left: 100;
+  bottom: 30px;
+  font-size: 30px;
+
+}
+.word{
+  position: relative;
+  left: 130;
+  bottom: 75px;
+  font-size:40px;
+  text-align: center;
+}

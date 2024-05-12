@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    bottom: 100px;
+}
+#Hod{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#Login{
+    background-color: red;
+    color: white;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid red;
+    font-size: 20px;
+}
+.head{
+    padding:0 300px 0 0;
+
+}
+.font{
+    font-size:10px;
+}
+.photo{
+    top: 110px;
+    position: relative;
+}

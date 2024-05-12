@@ -1,0 +1,43 @@
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Search input style */
+  input[type="text"] {
+    position: relative;
+    text-align: right;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    Left:300px
+  }
+  
+  .custom-button {
+      background-color: rgb(247, 2, 2);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    
+    .custom-button:hover {
+      background-color: rgb(247, 83, 83);
+    }
+  
+    .position{
+      position: relative;
+      top: 300px;
+      text-align: center;
+    }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Check Expired Data.css">
+    <title>Expired Products</title>
+</head>
+<body>
+    <h1>Expired Products</h1>
+    <div class="product">
+        <h2>Product A</h2>
+        <p>Expiration Date: 2023-10-15</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product B</h2>
+        <p>Expiration Date: 2023-05-12</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+
+    <div class="product">
+        <h2>Product C</h2>
+        <p>Expiration Date: 2026-04-19</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product D</h2>
+        <p>Expiration Date: 2022-09-12</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product E</h2>
+        <p>Expiration Date: 2029-06-30</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product F</h2>
+        <p>Expiration Date: 2028-10-16</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product G</h2>
+        <p>Expiration Date: 2025-02-14</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product H</h2>
+        <p>Expiration Date: 2030-04-25</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product I</h2>
+        <p>Expiration Date: 2018-05-01</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    <div class="product">
+        <h2>Product J</h2>
+        <p>Expiration Date: 2023-05-12</p>
+        <button class="return-button" onclick="showMessage()">Return to Supplier</button>
+    </div>
+    
+
+    <div id="message" class="hidden">Waiting for the supplier to contact...</div>
+
+    <script>
+        function showMessage() {
+            const messageDiv = document.getElementById("message");
+            messageDiv.classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>

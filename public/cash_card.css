@@ -1,0 +1,52 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header section */
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.search-bar {
+    float: right;
+    margin-top: 5px;
+}
+
+.menu-icon {
+    display: inline-block;
+    float: right;
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+/* Style the payment options */
+.payment-options {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    border: solid red thin;
+    width: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+
+.dots {
+    margin-top: 5px;
+}

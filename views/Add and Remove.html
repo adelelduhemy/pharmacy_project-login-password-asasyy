@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Add and Remove.css">
+    <title>Inventory Management</title>
+</head>
+<body>
+    <h1>Inventory Management</h1>
+    <div class="inventory">
+        <h2>Item A</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    <div class="inventory">
+        <h2>Item B</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    <div class="inventory">
+        <h2>Item C</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    <div class="inventory">
+        <h2>Item D</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    <div class="inventory">
+        <h2>Item E</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    <div class="inventory">
+        <h2>Item F</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    <div class="inventory">
+        <h2>Item G</h2>
+        <button class="add-button" onclick="showMessage('Successfully added')">Add</button>
+        <button class="remove-button" onclick="showMessage('Successfully removed')">Remove</button>
+    </div>
+    
+
+    <div id="message" class="hidden"></div>
+
+    <script>
+        function showMessage(message) {
+            const messageDiv = document.getElementById("message");
+            messageDiv.innerText = message;
+            messageDiv.classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>

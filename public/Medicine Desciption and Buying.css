@@ -1,0 +1,67 @@
+.header {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Search input style */
+input[type="text"] {
+  position: relative;
+  text-align: right;
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  Left:300px
+}
+
+.word{
+  position: relative;
+  left: 525;
+  bottom: 200;
+  font-size: 22px;
+
+}
+
+.custom-button {
+  background-color: rgb(247, 2, 2);
+  position: relative;
+  left: 300px;
+  top: 30px;
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.photo{
+  border: 3px solid red;  
+  border-radius: 10px;  
+  font-size: 20px;  
+  font-weight: bold;  
+  margin: 30px;  
+  padding: 30px;  
+  width: 400px;
+  outline-offset: 0.5em;
+}
+
+.max{
+position: relative;
+left: 300px;
+top: 50px;
+}
+
+.maxSelect{
+position: relative;
+left: 380px;
+top: 50px;
+}

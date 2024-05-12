@@ -1,0 +1,33 @@
+.sora{
+position: relative;
+width: 350px;
+height: 350px;
+display: block;
+margin: 0 auto;
+}
+.klam{
+    position: relative;
+    text-align: center;
+}
+.klam2{
+position: relative;
+text-align: center;
+
+}
+.klam3{
+    position: relative;
+text-align: center;
+}
+.custom-button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    display: block;
+margin: 0 auto;
+font-size: 20;
+text-decoration: none;
+
+  }
+  

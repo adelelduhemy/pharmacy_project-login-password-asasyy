@@ -1,0 +1,40 @@
+.head{
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+    height: 300px;
+  
+}
+.radio{
+    text-align: center;
+    padding: 50px 0 20px 0 ;
+}
+.submit{
+    text-align: center;
+}
+#Login{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+#signup{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+#loginasAdmin{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
